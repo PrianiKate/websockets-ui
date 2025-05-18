@@ -1,0 +1,15 @@
+export enum WebSocketEvent {
+  reg = 'reg',
+  updateWinners = 'update_winners',
+  updateRoom = 'update_room',
+  createRoom = 'create_room',
+  addUserToRoom = 'add_user_to_room',
+  createGame = 'create_game',
+  addShips = 'add_ships',
+  startGame = 'start_game',
+  turn = 'turn',
+  attack = 'attack',
+  randomAttack = 'randomAttack',
+  finish = 'finish',
+  singlePlay = 'single_play',
+}
